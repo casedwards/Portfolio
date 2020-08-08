@@ -54,10 +54,16 @@ img {
 }
 
 .sidebar-sm {
-    width: 30%;
-    margin: 0.8em;
-    padding: 0.5em;
+    width: 25%;
+    margin: 0.7em;
+    padding: 0.4em;
 }
+
+@media only screen and (max-width: 600px) {
+    .sidebar-sm {
+        display:block;
+    }
+  }
 
 
 #beard {
