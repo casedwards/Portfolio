@@ -55,14 +55,30 @@ img {
 
 .sidebar-sm {
     width: 25%;
-    margin: 0.7em;
+    margin: 0.8em;
     padding: 0.4em;
 }
 
 @media only screen and (max-width: 600px) {
-    .sidebar-sm {
-        display:block;
+    #flexwithtext {
+        display: inline-block;
     }
+    .sidebar-sm {
+        display: flex; 
+        margin-bottom: -5rem; 
+    }
+    .sidebar-sm img {
+        width: 100%;
+        height: 100%;
+        padding: 1em;
+    }
+    .sidebar-sm p {
+        padding: 1em;
+    }
+    #address {
+        display: none;
+    }
+      
   }
 
 
